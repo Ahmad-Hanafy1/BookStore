@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 📚 BookStore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BookStore is a simple online bookstore frontend developed using ReactJS and Bootstrap.
 
-## Available Scripts
+The application allows users to browse books, search for books by title or author, filter books by category, and add books to a shopping cart.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Responsive navigation bar
+- Home page
+- Books page
+- Search books by title or author
+- Filter books by category
+- Dynamic book cards
+- Shopping cart
+- Increase and decrease book quantity
+- Remove books from cart
+- Automatic total price calculation
+- Features page
+- About page
+- Contact page
+- Responsive design for desktop, tablet, and mobile
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJS
+- JavaScript
+- Bootstrap
+- CSS
+- React Router
+- Git
+- GitHub
 
-### `npm test`
+## Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Home
 
-### `npm run build`
+The Home page introduces the BookStore and provides a button to browse the available books.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Books
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Books page displays books dynamically. Users can search for books, filter them by category, and add them to the shopping cart.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Features
 
-### `npm run eject`
+The Features page explains the main functionality of the BookStore.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### About
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The About page provides information about the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Contact page contains a simple form for users to send a message.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Ahmad-Hanafy1/BookStore.git
