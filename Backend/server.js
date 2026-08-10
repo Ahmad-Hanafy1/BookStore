@@ -7,12 +7,14 @@ const bookRoutes = require("./routes/bookRoutes");
 const app = express();
 const authRoutes = require("./routes/authRoutes");
 const orderRoutes = require("./routes/orderRoutes");
+const contactRoutes = require("./routes/contactRoutes");
 
 app.use(cors());
 app.use(express.json());
 app.use("/api/books", bookRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/orders", orderRoutes);
+app.use("/api/contact", contactRoutes);
 
 app.get("/", (req, res) => {
   res.json({
