@@ -6,11 +6,13 @@ const db = require("./config/db");
 const bookRoutes = require("./routes/bookRoutes");
 const app = express();
 const authRoutes = require("./routes/authRoutes");
+const orderRoutes = require("./routes/orderRoutes");
 
 app.use(cors());
 app.use(express.json());
 app.use("/api/books", bookRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/orders", orderRoutes);
 
 app.get("/", (req, res) => {
   res.json({
